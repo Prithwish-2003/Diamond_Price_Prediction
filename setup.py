@@ -16,8 +16,9 @@ def get_requirements(file_path:str)->List[str]:
 
 
 setup(
+    ## This Is my First Project
     name='Diamond_predection_Project',
-    version='0.0.1',
+    version='0.0.2',
     author='Prithwish',
     author_email='ghoshprithwish586@gmail.com',
     install_requires=get_requirements('requirements.txt'),
